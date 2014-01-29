@@ -1,0 +1,59 @@
+<table>
+ <tr>
+  <td>
+   <b>Name</b>
+  </td>
+  <td>
+   <b>Interface</b>
+  </td>
+  <td>
+   <b>Address</b>
+  </td>
+  <td>
+  </td>
+ </tr>
+ <tr>
+  <form method="post" action="/adminiobindings">
+  <td>
+   <input type="text" name="nickname">
+   <input type="hidden" name="pubaddr" value="NULL">
+  </td>
+  <td>
+   <select name="interface">
+    <!--[selectdata]-->
+   </select>
+  </td>
+  <td>
+   <input type="text" name="address">
+  </td>
+  <td>
+   <input type="submit" name="ok" value="Save new">
+  </td>
+ </tr>
+ <tr>
+  <td colspan="4">
+   <hr>
+  </td>
+ </tr>
+<!--[list]
+[ITEM]
+ <tr>
+  <form method="post" action="/adminiobindings">
+  <td>
+   <input type="text" name="nickname" value="[nickname]">
+   <input type="hidden" name="pubaddr" value="[publicaddress]">
+  </td>
+  <td>
+   <select name="interface">
+    [selectdata]
+   </select>
+  </td>
+  <td>
+   <input type="text" name="address" value="[address]">
+  </td>
+  <td>
+   <input type="submit" name="ok" value="Save"></form>
+  </td>
+ </tr>
+[/ITEM]-->
+</table>

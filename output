@@ -1,0 +1,43 @@
+Starting initializion sequence...
+======================================================
+Error in interface k8055
+Import by filename is not supported.
+Error in interface serial
+Import by filename is not supported.
+Error in interface owfs
+Import by filename is not supported.
+* Attempting to start XML-RPC Server
+* Attempting to start UDP server...
+   UDP server is up at port 7302
+    XML-RPC Server is up at port 8000
+* Attempting to start web administration
+   Web administration is up at port 9000
+Registered funtion get for network access
+Registered funtion set for network access
+Registered funtion reinitialize for network access
+Error in modules/alarm
+Import by filename is not supported.
+Error in modules/motion
+Import by filename is not supported.
+Error in modules/uptime
+Import by filename is not supported.
+Error in modules/speach
+Import by filename is not supported.
+Error in modules/serialinput
+Import by filename is not supported.
+Error in modules/test
+Import by filename is not supported.
+Error in modules/lights
+Import by filename is not supported.
+Error in modules/heat
+Import by filename is not supported.
+
+Initializion sequence completed, entering working mode
+======================================================
+======================================================
+Program exiting...
+
+* Attempting to stop UDP server...
+* Attempting to stop XML-RPC Server
+
+All stopped!.. God Bye :)
