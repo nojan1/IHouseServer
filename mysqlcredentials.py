@@ -1,4 +1,4 @@
 host="localhost"
 username="root"
-password="grodan"
+password=""
 database="ihouse"
